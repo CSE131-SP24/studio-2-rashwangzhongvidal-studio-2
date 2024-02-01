@@ -45,6 +45,8 @@ public class Ruin {
 			System.out.println("Current day：" + Count);
 			System.out.println("Number of plays this day: " + numOfPlays);
 		}
+		int numOfLoser0 = (int) numOfLoser;
+		System.out.println("Losses: " + numOfLoser0 + " Simulations: " + totalSimulations);
 		System.out.println("Ruin rate from simulation: " + (numOfLoser/totalSimulations));
 	}
 		
